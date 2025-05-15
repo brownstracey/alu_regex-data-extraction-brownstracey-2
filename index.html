@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Regex Extractor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="content-wrapper">
+      <section class="left-panel">
+        <h1>Tracy's Regex Extractor</h1>
+        <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+      </section>
+
+      <section class="right-panel">
+        <label><input type="checkbox" id="email" checked /> EMAIL</label>
+        <label><input type="checkbox" id="url" checked /> URL</label>
+        <label><input type="checkbox" id="phone" /> PHONE</label>
+        <label><input type="checkbox" id="time" /> TIME</label>
+        <label><input type="checkbox" id="hashtag" /> HASHTAG</label>
+        <label><input type="checkbox" id="currency" /> CURRENCY</label>
+      </section>
+    </div>
+
+    <div class="extract-btn-container">
+      <button id="extractBtn">EXTRACT DATA</button>
+    </div>
+
+    <div id="results"></div>
+  </main>
+
+  <footer>
+    <div class="names-container">
+      <span class="name">this regex validator was designed by BROWNS tracey</span>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
