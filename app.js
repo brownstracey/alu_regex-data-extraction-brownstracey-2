@@ -20,8 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
       url: document.getElementById('url').checked,
       phone: document.getElementById('phone').checked,
       time: document.getElementById('time').checked,
-      hashtag: document.getElementById('hashtag').checked,
-      currency: document.getElementById('currency').checked
     };
 
     const result = validateAll(text, options);

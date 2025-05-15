@@ -1,20 +1,30 @@
-Regex Validator
+# Tracy's Regex Extractor
 
-This project validates user input using Regex.
-It checks:
-*Email Addresses  
-*URLs  
-*Phone Numbers  
-*Credit Card Numbers  
+This is a personal hotel menu. People can also place orders and book reservations before arriving.
 
- How to Run
- To run this project locally, follow these steps:
+## Live Site
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/brownstracey/alu_regex-data-extraction-brownstracey.git
-    ```
+View the deployed website here:  
+👉 [Click here!](https://brownstracey.github.io/alu_regex-data-extraction-brownstracey-2/)
 
-3. Right click `index.html` and open in live server.
+## About the Project
 
-`
+This project validates user input using Regex. It checks:
+
+-  emails
+-  urls
+-  phone numbers
+-  time
+
+## Technologies Used
+
+- HTML
+- CSS (Custom styles, purple/black theme, responsive design)
+- JavaScript (Interactivity)
+
+## Features
+
+- Responsive design for mobile, tablet, and desktop using media queries
+- Custom fonts and layouts
+- Valid HTML & CSS
+- Deployed on GitHub Pages
