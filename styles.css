@@ -4,10 +4,13 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
+    height: 100%;
   }
   
   .container {
-    max-width: 800px;
+    max-width: 1000px;
+    height: 100%;
+    block-size: 70%;
     margin: 40px auto;
     padding: 20px;
     background-color: #2d2d44;
@@ -72,20 +75,26 @@ body {
     border: 1px solid deeppink;
 }
 
-.names-container {
-    display: flex;
-    animation: slide 15s infinite linear;
-}
-
 .name {
     padding: 0 1rem;
     white-space: nowrap;
     text-shadow: 0 0 5px hotpink;
 }
 
+.names-container {
+    display: flex;
+    animation: slide 22s infinite linear;
+}
+
 @keyframes slide {
     0% {
         transform: translateX(100%);
+    }
+    25% {
+        transform: translateX(0%);
+    }
+    75% {
+        transform: translateX(0%); /* Pause here for 10 seconds */
     }
     100% {
         transform: translateX(-100%);
@@ -132,4 +141,3 @@ button {
       opacity: 0;
     }
   }
-  
