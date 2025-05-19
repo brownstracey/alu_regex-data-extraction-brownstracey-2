@@ -9,10 +9,10 @@ extractBtn.addEventListener('click', (e) => {
 
   const text = inputText.value;
   const options = {
-    email: document.getElementById('email').checked,
-    url: document.getElementById('url').checked,
-    phone: document.getElementById('phone').checked,
-    time: document.getElementById('time').checked,
+    email: document.getElementById('email')
+    url: document.getElementById('url')
+    phone: document.getElementById('phone')
+    time: document.getElementById('time')
   };
 
   const result = validateAll(text, options);
